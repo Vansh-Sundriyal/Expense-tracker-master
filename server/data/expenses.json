@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "id": "1749274588123",
+    "amount": 250,
+    "category": "Food",
+    "date": "2025-06-07",
+    "note": "Lunch"
+  },
+  {
+    "id": "1749274588124",
+    "amount": 100,
+    "category": "Transport",
+    "date": "2025-06-08",
+    "note": "Bus fare"
+  }
+]
