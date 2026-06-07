@@ -1,7 +1,7 @@
 [
   {
     "id": "1749274588123",
-    "amount": 250,
+    "amount": "255",
     "category": "Food",
     "date": "2025-06-07",
     "note": "Lunch"
@@ -9,8 +9,8 @@
   {
     "id": "1749274588124",
     "amount": 100,
-    "category": "Transport",
+    "category": "Entertainment",
     "date": "2025-06-08",
-    "note": "Bus fare"
+    "note": "movie night"
   }
 ]

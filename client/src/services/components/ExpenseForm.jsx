@@ -1,6 +1,6 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
-export default function ExpenseForm({ onAdd }) {
+export default function ExpenseForm({ onAdd, editingExpense, onUpdate }) {
   const [formData, setFormData] = useState({
     amount: "",
     category: "Food",
@@ -11,7 +11,11 @@ export default function ExpenseForm({ onAdd }) {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    onAdd(formData);
+    if (editingExpense) {
+      onUpdate(editingExpense.id, formData);
+    } else {
+      onAdd(formData);
+    }
 
     setFormData({
       amount: "",
@@ -21,11 +25,19 @@ export default function ExpenseForm({ onAdd }) {
     });
   };
 
+  useEffect(() => {
+    if (editingExpense) {
+      setFormData({
+        amount: editingExpense.amount,
+        category: editingExpense.category,
+        date: editingExpense.date,
+        note: editingExpense.note,
+      });
+    }
+  }, [editingExpense]);
+
   return (
-    <form
-      onSubmit={handleSubmit}
-      className="bg-white p-4 rounded shadow mb-6"
-    >
+    <form onSubmit={handleSubmit} className="bg-white p-4 rounded shadow mb-6">
       <input
         type="number"
         placeholder="Amount"
@@ -81,11 +93,7 @@ export default function ExpenseForm({ onAdd }) {
         className="border p-2 mr-2"
       />
 
-      <button
-        className="bg-blue-600 text-white px-4 py-2 rounded"
-      >
-        Add
-      </button>
+      <button className="bg-blue-600 text-white px-4 py-2 rounded">Add</button>
     </form>
   );
 }

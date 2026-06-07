@@ -1,7 +1,4 @@
-export default function ExpenseTable({
-  expenses,
-  onDelete,
-}) {
+export default function ExpenseTable({ expenses, onDelete, onEdit }) {
   return (
     <table className="w-full bg-white rounded shadow">
       <thead>
@@ -28,6 +25,12 @@ export default function ExpenseTable({
                 className="text-red-500"
               >
                 Delete
+              </button>
+              <button
+                onClick={() => onEdit(expense)}
+                className="text-blue-500 ml-3"
+              >
+                Edit
               </button>
             </td>
           </tr>
