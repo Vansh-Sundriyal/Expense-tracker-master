@@ -13,7 +13,6 @@ export const createExpense = async (expense) => {
     },
     body: JSON.stringify(expense),
   });
-
   return response.json();
 };
 

@@ -1,16 +1,352 @@
 [
   {
-    "id": "1749274588123",
-    "amount": "255",
+    "id": "1780846400001",
+    "amount": "120",
     "category": "Food",
-    "date": "2025-06-07",
+    "date": "2026-06-01",
+    "note": "Breakfast"
+  },
+  {
+    "id": "1780846400002",
+    "amount": "80",
+    "category": "Transport",
+    "date": "2026-06-01",
+    "note": "Auto fare"
+  },
+  {
+    "id": "1780846400003",
+    "amount": "450",
+    "category": "Bills",
+    "date": "2026-06-01",
+    "note": "Internet bill"
+  },
+  {
+    "id": "1780846400004",
+    "amount": "300",
+    "category": "Entertainment",
+    "date": "2026-06-01",
+    "note": "Movie ticket"
+  },
+  {
+    "id": "1780846400005",
+    "amount": "90",
+    "category": "Other",
+    "date": "2026-06-02",
+    "note": "Stationery"
+  },
+  {
+    "id": "1780846400006",
+    "amount": "220",
+    "category": "Food",
+    "date": "2026-06-02",
+    "note": "Dinner"
+  },
+  {
+    "id": "1780846400007",
+    "amount": "60",
+    "category": "Transport",
+    "date": "2026-06-02",
+    "note": "Metro card"
+  },
+  {
+    "id": "1780846400008",
+    "amount": "700",
+    "category": "Bills",
+    "date": "2026-06-02",
+    "note": "Water bill"
+  },
+  {
+    "id": "1780846400009",
+    "amount": "250",
+    "category": "Entertainment",
+    "date": "2026-06-03",
+    "note": "Gaming"
+  },
+  {
+    "id": "1780846400010",
+    "amount": "180",
+    "category": "Other",
+    "date": "2026-06-03",
+    "note": "Gift wrap"
+  },
+  {
+    "id": "1780846400011",
+    "amount": "340",
+    "category": "Food",
+    "date": "2026-06-03",
+    "note": "Restaurant"
+  },
+  {
+    "id": "1780846400012",
+    "amount": "95",
+    "category": "Transport",
+    "date": "2026-06-04",
+    "note": "Cab ride"
+  },
+  {
+    "id": "1780846400013",
+    "amount": "1200",
+    "category": "Bills",
+    "date": "2026-06-04",
+    "note": "Electricity bill"
+  },
+  {
+    "id": "1780846400014",
+    "amount": "450",
+    "category": "Entertainment",
+    "date": "2026-06-04",
+    "note": "Concert pass"
+  },
+  {
+    "id": "1780846400015",
+    "amount": "160",
+    "category": "Other",
+    "date": "2026-06-05",
+    "note": "Books"
+  },
+  {
+    "id": "1780846400016",
+    "amount": "210",
+    "category": "Food",
+    "date": "2026-06-05",
     "note": "Lunch"
   },
   {
-    "id": "1749274588124",
-    "amount": 100,
+    "id": "1780846400017",
+    "amount": "50",
+    "category": "Transport",
+    "date": "2026-06-05",
+    "note": "Bus ticket"
+  },
+  {
+    "id": "1780846400018",
+    "amount": "350",
+    "category": "Bills",
+    "date": "2026-06-05",
+    "note": "Mobile recharge"
+  },
+  {
+    "id": "1780846400019",
+    "amount": "200",
     "category": "Entertainment",
-    "date": "2025-06-08",
-    "note": "movie night"
+    "date": "2026-06-06",
+    "note": "Streaming subscription"
+  },
+  {
+    "id": "1780846400020",
+    "amount": "140",
+    "category": "Other",
+    "date": "2026-06-06",
+    "note": "Cleaning supplies"
+  },
+  {
+    "id": "1780846400021",
+    "amount": "170",
+    "category": "Food",
+    "date": "2026-06-06",
+    "note": "Snacks"
+  },
+  {
+    "id": "1780846400022",
+    "amount": "110",
+    "category": "Transport",
+    "date": "2026-06-07",
+    "note": "Fuel"
+  },
+  {
+    "id": "1780846400023",
+    "amount": "650",
+    "category": "Bills",
+    "date": "2026-06-07",
+    "note": "Gas bill"
+  },
+  {
+    "id": "1780846400024",
+    "amount": "280",
+    "category": "Entertainment",
+    "date": "2026-06-07",
+    "note": "Bowling"
+  },
+  {
+    "id": "1780846400025",
+    "amount": "190",
+    "category": "Other",
+    "date": "2026-06-08",
+    "note": "Kitchen items"
+  },
+  {
+    "id": "1780846400026",
+    "amount": "260",
+    "category": "Food",
+    "date": "2026-06-08",
+    "note": "Takeaway"
+  },
+  {
+    "id": "1780846400027",
+    "amount": "75",
+    "category": "Transport",
+    "date": "2026-06-08",
+    "note": "Rickshaw"
+  },
+  {
+    "id": "1780846400028",
+    "amount": "540",
+    "category": "Bills",
+    "date": "2026-06-08",
+    "note": "DTH recharge"
+  },
+  {
+    "id": "1780846400029",
+    "amount": "350",
+    "category": "Entertainment",
+    "date": "2026-06-09",
+    "note": "Arcade"
+  },
+  {
+    "id": "1780846400030",
+    "amount": "220",
+    "category": "Other",
+    "date": "2026-06-09",
+    "note": "Accessories"
+  },
+  {
+    "id": "1780846400031",
+    "amount": "130",
+    "category": "Food",
+    "date": "2026-06-09",
+    "note": "Coffee"
+  },
+  {
+    "id": "1780846400032",
+    "amount": "90",
+    "category": "Transport",
+    "date": "2026-06-10",
+    "note": "Local train"
+  },
+  {
+    "id": "1780846400033",
+    "amount": "890",
+    "category": "Bills",
+    "date": "2026-06-10",
+    "note": "Maintenance fee"
+  },
+  {
+    "id": "1780846400034",
+    "amount": "400",
+    "category": "Entertainment",
+    "date": "2026-06-10",
+    "note": "Theme park"
+  },
+  {
+    "id": "1780846400035",
+    "amount": "150",
+    "category": "Other",
+    "date": "2026-06-11",
+    "note": "Umbrella"
+  },
+  {
+    "id": "1780846400036",
+    "amount": "240",
+    "category": "Food",
+    "date": "2026-06-11",
+    "note": "Dinner outing"
+  },
+  {
+    "id": "1780846400037",
+    "amount": "65",
+    "category": "Transport",
+    "date": "2026-06-11",
+    "note": "Bus pass"
+  },
+  {
+    "id": "1780846400038",
+    "amount": "310",
+    "category": "Bills",
+    "date": "2026-06-12",
+    "note": "Phone bill"
+  },
+  {
+    "id": "1780846400039",
+    "amount": "180",
+    "category": "Entertainment",
+    "date": "2026-06-12",
+    "note": "Music app"
+  },
+  {
+    "id": "1780846400040",
+    "amount": "125",
+    "category": "Other",
+    "date": "2026-06-12",
+    "note": "Batteries"
+  },
+  {
+    "id": "1780846400041",
+    "amount": "290",
+    "category": "Food",
+    "date": "2026-06-13",
+    "note": "Family lunch"
+  },
+  {
+    "id": "1780846400042",
+    "amount": "100",
+    "category": "Transport",
+    "date": "2026-06-13",
+    "note": "Fuel refill"
+  },
+  {
+    "id": "1780846400043",
+    "amount": "780",
+    "category": "Bills",
+    "date": "2026-06-13",
+    "note": "Electric repair"
+  },
+  {
+    "id": "1780846400044",
+    "amount": "260",
+    "category": "Entertainment",
+    "date": "2026-06-14",
+    "note": "Cricket match"
+  },
+  {
+    "id": "1780846400045",
+    "amount": "170",
+    "category": "Other",
+    "date": "2026-06-14",
+    "note": "Medicine"
+  },
+  {
+    "id": "1780846400046",
+    "amount": "310",
+    "category": "Food",
+    "date": "2026-06-14",
+    "note": "Pizza"
+  },
+  {
+    "id": "1780846400047",
+    "amount": "85",
+    "category": "Transport",
+    "date": "2025-06-15",
+    "note": "Taxi"
+  },
+  {
+    "id": "1780846400048",
+    "amount": "950",
+    "category": "Bills",
+    "date": "2026-06-15",
+    "note": "Property tax"
+  },
+  {
+    "id": "1780846400049",
+    "amount": "320",
+    "category": "Entertainment",
+    "date": "2025-06-15",
+    "note": "Cinema"
+  },
+  {
+    "id": "1780846400050",
+    "amount": "145",
+    "category": "Other",
+    "date": "2026-03-15",
+    "note": "Household items"
   }
 ]
