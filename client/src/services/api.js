@@ -1,4 +1,5 @@
-const BASE_URL = "http://localhost:5000/api/expenses";
+// const BASE_URL = "http://localhost:5000/api/expenses";
+const BASE_URL = "https://expense-tracker-master-api.onrender.com/api/expenses";
 
 export const getExpenses = async () => {
   const response = await fetch(BASE_URL);

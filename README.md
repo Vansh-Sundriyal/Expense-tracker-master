@@ -269,3 +269,5 @@ https://lordicon.com
 ## Notes
 
 AI-assisted tools were used during development for debugging, and reviewing implementation approaches. All submitted code was reviewed, understood, and tested before submission.
+
+The project ships with sample expense data to make it easier to explore filtering, analytics, and chart functionality immediately after setup.
