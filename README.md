@@ -8,9 +8,11 @@ Expense Tracker Master is a full-stack expense management application that allow
 
 ## Live Demo
 
-Frontend: [Add Vercel URL Here]
+Frontend:
+https://expense-tracker-master-exp.vercel.app/
 
-Backend: [Add Render URL Here]
+Backend:
+https://expense-tracker-master-api.onrender.com/api/expenses
 
 ### Note
 
@@ -30,7 +32,7 @@ The backend is hosted on Render's free tier. The first request after a period of
 ### Filtering
 
 * Filter by category
-* Filter by date range
+* Filter by date range:
 
   * This Month
   * Previous Month
@@ -78,7 +80,7 @@ The backend is hosted on Render's free tier. The first request after a period of
 
 ### Storage
 
-* JSON File 
+* JSON File
 
 ---
 
@@ -119,7 +121,31 @@ expense-tracker-master
 
 ```bash
 git clone https://github.com/Vansh-Sundriyal/Expense-tracker-master.git
-cd expense-tracker-master
+cd Expense-tracker-master
+```
+
+### Local API Configuration
+
+The deployed version uses the hosted Render backend.
+
+To run the project locally, open:
+
+```text
+client/src/services/api.js
+```
+
+Replace:
+
+```js
+const BASE_URL =
+  "https://expense-tracker-master-api.onrender.com/api/expenses";
+```
+
+with:
+
+```js
+const BASE_URL =
+  "http://localhost:5000/api/expenses";
 ```
 
 ### Backend Setup
@@ -176,8 +202,6 @@ Response:
 ]
 ```
 
----
-
 ### Create Expense
 
 ```http
@@ -195,8 +219,6 @@ Request Body:
 }
 ```
 
----
-
 ### Update Expense
 
 ```http
@@ -213,8 +235,6 @@ Request Body:
   "note": "Updated"
 }
 ```
-
----
 
 ### Delete Expense
 
@@ -266,8 +286,21 @@ https://lordicon.com
 
 ---
 
+## Next Steps
+
+Additional Features to implement later:
+
+* Budget tracking per category
+* Monthly spending trend charts
+* CSV import support
+* User authentication
+* Database integration (PostgreSQL or MongoDB)
+* Automated testing for API routes and React components
+
+---
+
 ## Notes
 
-AI-assisted tools were used during development for debugging, and reviewing implementation approaches. All submitted code was reviewed, understood, and tested before submission.
+AI-assisted tools were used during development for debugging, implementation review, and troubleshooting. All submitted code was reviewed, understood, tested, and modified where necessary before submission.
 
 The project ships with sample expense data to make it easier to explore filtering, analytics, and chart functionality immediately after setup.
